@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency( "cucumber" )
   s.add_dependency( "json" )
   s.add_dependency( "CFPropertyList" )
-  s.add_dependency( "sim_launcher", "0.4.6")
+  s.add_dependency( "sim_launcher", :git => "https://github.com/mgrebenets/Sim-Launcher.git", :branch => "all_options")
   s.add_dependency( "slowhandcuke" )
   s.add_dependency( "location-one", "~>0.0.9")
   s.add_dependency( "httpclient","2.3.2")
